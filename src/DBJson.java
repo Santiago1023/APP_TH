@@ -1,7 +1,7 @@
 public class DBJson implements IPermisosGenerales, IPermisosAdministrador{
 
     @Override
-    public void registrarEmpleado(Registro registro) {
+    public void registrarEmpleado(Empleado empleado) {
 
     }
 
@@ -11,7 +11,7 @@ public class DBJson implements IPermisosGenerales, IPermisosAdministrador{
     }
 
     @Override
-    public void cambiarEstadoEmpleado(String estado, Registro registro) {
+    public void cambiarEstadoEmpleado(String estado, Empleado empleado) {
 
     }
 

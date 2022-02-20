@@ -1,10 +1,10 @@
-public abstract class UsuarioApp extends Persona{
+public abstract class UsuarioApp {
 
     protected String password;
     protected String username;
 
-    public UsuarioApp(String nombre, String apellido, String id, String pais, FondoPension fondoPension, String password, String username) {
-        super(nombre, apellido, id, pais, fondoPension);
+    public UsuarioApp(String password, String username) {
+        
         this.password = password;
         this.username = username;
     }
