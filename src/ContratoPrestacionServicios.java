@@ -9,4 +9,11 @@ public class ContratoPrestacionServicios extends Contrato{
         this.duracionLabor = duracionLabor;
     }
 
+    @Override
+    public String toString() {
+        return "ContratoPrestacionServicios{" + "duracionLabor=" + duracionLabor + '}';
+    }
+    
+    
+
 }

@@ -7,4 +7,10 @@ public class ARL {
         this.nombre = nombre;
         this.tipoAfiliacion = tipoAfiliacion;
     }
+
+    @Override
+    public String toString() {
+        return "ARL{" + "nombre=" + nombre + ", tipoAfiliacion=" + tipoAfiliacion + '}';
+    }
+    
 }
