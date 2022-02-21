@@ -7,4 +7,11 @@ public class EPS {
         this.nombre = nombre;
         this.tipoAfiliacion = tipoAfiliacion;
     }
+
+    @Override
+    public String toString() {
+        return "EPS{" + "nombre=" + nombre + ", tipoAfiliacion=" + tipoAfiliacion + '}';
+    }
+    
+    
 }

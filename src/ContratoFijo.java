@@ -9,4 +9,9 @@ public class ContratoFijo extends Contrato{
         this.duracionContrato = duracionContrato;
     }
 
+    @Override
+    public String toString() {
+        return "ContratoFijo{" + "duracionContrato=" + duracionContrato + '}';
+    }
+
 }

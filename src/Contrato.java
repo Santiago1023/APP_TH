@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public abstract class Contrato {
+public class Contrato {
 
     protected float prima;
     protected LocalDate vacaciones;
@@ -20,6 +20,11 @@ public abstract class Contrato {
         this.fechaInicio = fechaInicio;
         this.arl = arl;
         this.salario = salario;
+    }
+
+    @Override
+    public String toString() {
+        return "Contrato{" + "prima=" + prima + ", vacaciones=" + vacaciones + ", cesantias=" + cesantias + ", fechaInicio=" + fechaInicio + ", arl=" + arl + ", salario=" + salario + '}';
     }
 
 }

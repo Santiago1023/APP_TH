@@ -13,4 +13,10 @@ public class FondoPension {
         this.semanasRestantes = semanasRestantes;
         this.totalSemanas = totalSemanas;
     }
+
+    @Override
+    public String toString() {
+        return "FondoPension{" + "nombre=" + nombre + ", contabilidad=" + contabilidad + ", semanasCotizadas=" + semanasCotizadas + ", semanasRestantes=" + semanasRestantes + ", totalSemanas=" + totalSemanas + '}';
+    }
+    
 }
