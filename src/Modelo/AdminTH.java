@@ -1,14 +1,9 @@
-public class Admin extends UsuarioApp{
+package Modelo;
 
-    protected Empleado empleado;
-    
+public class AdminTH{   
 
-    public Admin(String password, String username, Empleado empleado) {
+    public AdminTH() {
         
-        super(password, username);
-        this.empleado = empleado;
-      
     }
-
 
 }

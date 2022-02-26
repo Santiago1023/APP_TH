@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Persona {
     protected String nombre;
     protected String apellido;
@@ -9,6 +11,10 @@ public class Persona {
         this.apellido = apellido;
         this.id = id;
         this.pais = pais;
+    }
+    
+    public Persona(){
+        
     }
 
     @Override
