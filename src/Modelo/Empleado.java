@@ -1,6 +1,8 @@
-public class Empleado {
+package Modelo;
 
-    protected Persona persona;
+public class Empleado extends Persona{
+
+    //protected Persona persona;
     protected Contrato contrato;
     protected EPS eps;
     protected String estado;
@@ -8,8 +10,8 @@ public class Empleado {
     protected CuentaNomina cuentaNomina;
     protected FondoPension fondoPension;
 
-    public Empleado(Persona persona, Contrato contrato, EPS eps, String estado, String cargo, CuentaNomina cuentaNomina, FondoPension fondoPension) {
-        this.persona = persona;
+    public Empleado(String nombre, String apellido, String id, String pais, Contrato contrato, EPS eps, String estado, String cargo, CuentaNomina cuentaNomina, FondoPension fondoPension) {
+        super(nombre, apellido, id, pais);
         this.contrato = contrato;
         this.eps = eps;
         this.estado = estado;

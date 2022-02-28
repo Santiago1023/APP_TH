@@ -1,3 +1,5 @@
+package Modelo;
+
 public class ARL {
 
     protected String nombre;

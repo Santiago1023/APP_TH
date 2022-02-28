@@ -1,3 +1,5 @@
+package Modelo;
+
 public class CuentaNomina {
 
     protected int numeroCuenta;
